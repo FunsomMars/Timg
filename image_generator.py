@@ -9,7 +9,7 @@
 import timg.img_gen as tm
 import argparse
 
-parser = argparse.ArgumentParser(description="A python program for generating various images")
+parser = argparse.ArgumentParser(description='A python program for generating various images')
 parser.add_argument('height', type=int, help='The height of your image')
 parser.add_argument('width', type=int, help='The width of your image')
 parser.add_argument('folder', type=str, help='The folder name for storing your image')
