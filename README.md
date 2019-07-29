@@ -12,8 +12,8 @@ This program can be used for generating various images， which can be used for 
 * White/Red/Green/Blue images with typical grayscale
 * Some images with a white rectangle in the middle, the aspect ratio of the rectangle keeps up with the image, and a funny gif image
 ### Sample images:
-|:---:|:---:|:---:|
 | ![Align](https://github.com/FunsomMars/Timg/raw/master/sample/image_align.png) | ![Crosstalk](https://github.com/FunsomMars/Timg/raw/master/sample/crosstalk_black_0.png) | ![Checkerboard](https://github.com/FunsomMars/Timg/raw/master/sample/image_checkerboard.png) |
+|:---:|:---:|:---:|
 | Align | Crosstalk | Checkerboard |
 | ![Flicker](https://github.com/FunsomMars/Timg/raw/master/sample/flicker3_column.png "Flicker") | ![Responsetime](https://github.com/FunsomMars/Timg/raw/master/sample/gray_responsetime63_127.gif "Responsetime") | ![Funny](https://github.com/FunsomMars/Timg/raw/master/sample/rect_scaling.gif "funny") |
 | Flicker | Responsetime | Funny |
