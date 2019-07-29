@@ -21,7 +21,7 @@ This program can be used for generating various images， which can be used for 
 1. Clone the program to your local disk
 2. Open the terminal/cmd, get into the path of the program
 3. Run: ```python3 image_generator.py [-ppi PPI] [-gl GL] height width folder type```
-### The meaning of various parameters are:
+The meaning of various parameters are:
 ### positional arguments:
 * height: The height of your image
 * width: The width of your image
