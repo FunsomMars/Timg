@@ -16,7 +16,7 @@ from list2int import list2int
 
 class Timg(object):
     # Property initializing
-    def __init__(self, image_h, image_v, ppi, gl, filename):
+    def __init__(self, image_h, image_v, filename, ppi=401, gl=(0, 128, 255)):
         self.image_h = image_h
         self.image_v = image_v
         self.ppi = ppi
@@ -24,7 +24,7 @@ class Timg(object):
         self.filename = filename
         mkdir(filename)
 
-    # A cross in center, for align
+    # A cross in center, for alignment
     def align(self):
         image_h = self.image_h
         image_v = self.image_v
