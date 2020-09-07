@@ -24,9 +24,11 @@ class Ui_MainWindow(object):
         MainWindow.setMinimumSize(QtCore.QSize(500, 500))
         MainWindow.setMaximumSize(QtCore.QSize(500, 500))
         font = QtGui.QFont()
-        font.setFamily("微软雅黑")
+        font.setFamily("Heiti SC")
+        font.setBold(True)
+        font.setWeight(75)
         MainWindow.setFont(font)
-        MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        MainWindow.setCursor(QtGui.QCursor(QtCore.Qt.ArrowCursor))
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("icon-1-1024x1024.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
@@ -39,6 +41,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
         self.pushButton.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton.setFont(font)
+        self.pushButton.setCursor(QtGui.QCursor(QtCore.Qt.OpenHandCursor))
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("spider-512.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton.setIcon(icon1)
@@ -50,6 +58,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.spinBox_2.sizePolicy().hasHeightForWidth())
         self.spinBox_2.setSizePolicy(sizePolicy)
+        self.spinBox_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.spinBox_2.setMaximum(10000)
         self.spinBox_2.setObjectName("spinBox_2")
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
@@ -59,6 +68,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_5.sizePolicy().hasHeightForWidth())
         self.label_5.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_5.setFont(font)
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setObjectName("label_5")
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -68,6 +83,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label.sizePolicy().hasHeightForWidth())
         self.label.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
         self.lineEdit_3 = QtWidgets.QLineEdit(self.centralwidget)
@@ -85,6 +106,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_2.sizePolicy().hasHeightForWidth())
         self.label_2.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_2.setFont(font)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setObjectName("label_2")
         self.lineEdit_5 = QtWidgets.QLineEdit(self.centralwidget)
@@ -103,6 +130,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.comboBox.sizePolicy().hasHeightForWidth())
         self.comboBox.setSizePolicy(sizePolicy)
+        self.comboBox.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.comboBox.setObjectName("comboBox")
         self.comboBox.addItem("")
         self.comboBox.setItemText(0, "")
@@ -121,10 +149,17 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.spinBox_3.sizePolicy().hasHeightForWidth())
         self.spinBox_3.setSizePolicy(sizePolicy)
+        self.spinBox_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.spinBox_3.setMaximum(10000)
         self.spinBox_3.setObjectName("spinBox_3")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
         self.label_4.setGeometry(QtCore.QRect(340, 10, 100, 20))
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_4.setFont(font)
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
@@ -134,6 +169,12 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_6.sizePolicy().hasHeightForWidth())
         self.label_6.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_6.setFont(font)
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setObjectName("label_6")
         self.spinBox = QtWidgets.QSpinBox(self.centralwidget)
@@ -143,6 +184,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.spinBox.sizePolicy().hasHeightForWidth())
         self.spinBox.setSizePolicy(sizePolicy)
+        self.spinBox.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.spinBox.setMaximum(1000)
         self.spinBox.setObjectName("spinBox")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
@@ -152,10 +194,21 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
         self.label_3.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_3.setFont(font)
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
         self.label_3.setObjectName("label_3")
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser.setGeometry(QtCore.QRect(40, 210, 420, 240))
+        font = QtGui.QFont()
+        font.setFamily("Heiti SC")
+        font.setBold(True)
+        font.setWeight(75)
+        self.textBrowser.setFont(font)
         self.textBrowser.setObjectName("textBrowser")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -185,15 +238,15 @@ class Ui_MainWindow(object):
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'微软雅黑\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:18pt; font-weight:600;\">使用手册：</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">-----------------------------------------------------------------</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">1. 输入所需图片的高度（单位像素）、宽度（单位像素）、储存文件夹的名称，选择想要生成的图片类型，点击生成，就可以在指定文件夹里面生成所需图片；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">2. 本程序支持生成的图片类型有十字对齐、白红绿蓝255灰阶单色、Crosstalk、Flicker、灰阶响应时间动图、棋盘格以及指定的多灰阶白红绿蓝图片；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">3. 灰阶响应时间动图的默认灰阶设置为(0, 36, 63, 127, 255)五个灰阶中从低灰阶到高灰阶跳变，跳变时间间隔为0.1s，也就是说会生成0-36，0-63，0-127，0-255，36-63，36-127，36-255，63-127，63-255，127-255十种灰阶跳变动图；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">4. 黑白棋盘格中子格子的长宽比例为图片宽高比乘以16/9；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">5. 图片生成类型选择为crosstalk时，图片PPI的默认值为401ppi，一般来说在生成crosstalk图片时需要在图片PPI那一栏指定ppi；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">6. 多灰阶白红绿蓝图片的灰阶定义默认值为(0, 128, 255)，若需要自定义更多的灰阶，在图片灰阶中输入数字(0-255)数字即可，多个灰阶值之间用英文逗号隔开；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">7. 图片高度、宽度不指定，则默认值分别为1920px/1080px；图片类型不指定，则默认为WRGB纯色类型；储存文件夹名若不指定，则默认为img；</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt;\">-----------------------------------------------------------------</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt; font-weight:600;\">项目地址：</span><a href=\"https://github.com/FunsomMars/Timg\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt; text-decoration: underline; color:#0000ff;\">https://github.com/FunsomMars/Timg</span></a></p></body></html>"))
+"</style></head><body style=\" font-family:\'Heiti SC\'; font-size:13pt; font-weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-size:18pt;\">使用手册：</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">-----------------------------------------------------------------</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">1. 输入所需图片的高度（单位像素）、宽度（单位像素）、储存文件夹的名称，选择想要生成的图片类型，点击生成，就可以在指定文件夹里面生成所需图片；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">2. 本程序支持生成的图片类型有十字对齐、白红绿蓝255灰阶单色、Crosstalk、Flicker、灰阶响应时间动图、棋盘格以及指定的多灰阶白红绿蓝图片；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">3. 灰阶响应时间动图的默认灰阶设置为(0, 36, 63, 127, 255)五个灰阶中从低灰阶到高灰阶跳变，跳变时间间隔为0.1s，也就是说会生成0-36，0-63，0-127，0-255，36-63，36-127，36-255，63-127，63-255，127-255十种灰阶跳变动图；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">4. 黑白棋盘格中子格子的长宽比例为图片宽高比乘以16/9；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">5. 图片生成类型选择为crosstalk时，图片PPI的默认值为401ppi，一般来说在生成crosstalk图片时需要在图片PPI那一栏指定ppi；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">6. 多灰阶白红绿蓝图片的灰阶定义默认值为(0, 128, 255)，若需要自定义更多的灰阶，在图片灰阶中输入数字(0-255)数字即可，多个灰阶值之间用英文逗号隔开；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">7. 图片高度、宽度不指定，则默认值分别为1920px/1080px；图片类型不指定，则默认为WRGB纯色类型；储存文件夹名若不指定，则默认为img；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400;\">-----------------------------------------------------------------</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'.AppleSystemUIFont\';\">项目地址：</span><a href=\"https://github.com/FunsomMars/Timg\"><span style=\" font-family:\'.AppleSystemUIFont\'; font-weight:400; text-decoration: underline; color:#0000ff;\">https://github.com/FunsomMars/Timg</span></a></p></body></html>"))
