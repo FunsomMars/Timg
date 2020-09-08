@@ -67,7 +67,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -122,8 +123,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -152,8 +153,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -198,14 +199,14 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>图片高度(px)</string>
+     <string>图片高度/px</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -325,8 +326,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -355,8 +356,8 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -407,14 +408,14 @@
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
-      <pointsize>14</pointsize>
+      <family>Courier New</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>图片宽度(px)</string>
+     <string>图片宽度/px</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -423,15 +424,15 @@
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>20</x>
       <y>210</y>
-      <width>420</width>
-      <height>240</height>
+      <width>460</width>
+      <height>260</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Heiti SC</family>
+      <family>Courier New</family>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -440,18 +441,18 @@
      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Heiti SC'; font-size:13pt; font-weight:600; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:18pt;&quot;&gt;使用手册：&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;1. 输入所需图片的高度（单位像素）、宽度（单位像素）、储存文件夹的名称，选择想要生成的图片类型，点击生成，就可以在指定文件夹里面生成所需图片；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;2. 本程序支持生成的图片类型有十字对齐、白红绿蓝255灰阶单色、Crosstalk、Flicker、灰阶响应时间动图、棋盘格以及指定的多灰阶白红绿蓝图片；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;3. 灰阶响应时间动图的默认灰阶设置为(0, 36, 63, 127, 255)五个灰阶中从低灰阶到高灰阶跳变，跳变时间间隔为0.1s，也就是说会生成0-36，0-63，0-127，0-255，36-63，36-127，36-255，63-127，63-255，127-255十种灰阶跳变动图；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;4. 黑白棋盘格中子格子的长宽比例为图片宽高比乘以16/9；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;5. 图片生成类型选择为crosstalk时，图片PPI的默认值为401ppi，一般来说在生成crosstalk图片时需要在图片PPI那一栏指定ppi；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;6. 多灰阶白红绿蓝图片的灰阶定义默认值为(0, 128, 255)，若需要自定义更多的灰阶，在图片灰阶中输入数字(0-255)数字即可，多个灰阶值之间用英文逗号隔开；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;7. 图片高度、宽度不指定，则默认值分别为1920px/1080px；图片类型不指定，则默认为WRGB纯色类型；储存文件夹名若不指定，则默认为img；&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400;&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;项目地址：&lt;/span&gt;&lt;a href=&quot;https://github.com/FunsomMars/Timg&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:400; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/FunsomMars/Timg&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Courier New','Heiti SC'; font-size:9pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:12pt;&quot;&gt;使用手册：&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:12pt; font-weight:400;&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;1. 输入所需图片的高度（单位像素）、宽度（单位像素）、储存文件夹的名称，选择想要生成的图片类型，点击生成，就可以在指定文件夹里面生成所需图片；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;2. 本程序支持生成的图片类型有十字对齐、白红绿蓝255灰阶单色、Crosstalk、Flicker、灰阶响应时间动图、棋盘格以及指定的多灰阶白红绿蓝图片；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;3. 灰阶响应时间动图的默认灰阶设置为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;(0, 36, 63, 127, 255)&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;五个灰阶中从低灰阶到高灰阶跳变，跳变时间间隔为0.1s，也就是说会生成&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;0-36，0-63，0-127，0-255，36-63，36-127，36-255，63-127，63-255，127-255&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;十种灰阶跳变动图；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;4. 黑白棋盘格中子格子的长宽比例为图片宽高比乘以&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;16/9&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;5. 图片生成类型选择为crosstalk时，图片PPI的默认值为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;401ppi&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;，一般来说在生成crosstalk图片时需要在图片PPI那一栏指定ppi；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;6. 多灰阶白红绿蓝图片的灰阶定义默认值为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;(0, 128, 255)&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;，若需要自定义更多的灰阶，在图片灰阶中输入数字(0-255)数字即可，多个灰阶值之间用英文逗号隔开；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;7. 图片高度、宽度不指定，则默认值分别为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;1920px/1080px&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;；图片类型不指定，则默认为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;WRGB纯色&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;类型；储存文件夹名若不指定，则默认为&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;img&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;；&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400;&quot;&gt;-----------------------------------------------------------------&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt;&quot;&gt;项目地址：&lt;/span&gt;&lt;a href=&quot;https://github.com/FunsomMars/Timg&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:10pt; font-weight:400; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/FunsomMars/Timg&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
