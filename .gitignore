@@ -2,6 +2,7 @@
 .git/
 .DS_Store
 *.pyc
+*.spec
 __pycache__/
 test/
 py/
